@@ -12,7 +12,7 @@ This project is developed based on service repository design pattern. API Servic
 Application will load the API, and API will then abstract the business logic in service layer. Access to database is abstracted in repository layer.
 
 ## Project Structure
-`.
+```
 ├── src                 -> source files
 │   ├── apis            -> API
 │   ├── models          -> data models
@@ -23,4 +23,4 @@ Application will load the API, and API will then abstract the business logic in 
 │── app.ts              -> Unit testing
 │── schemas.ts          -> Unit testing
 └── tests               -> Unit testing
-`
+```
